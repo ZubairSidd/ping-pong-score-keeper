@@ -1,0 +1,106 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.container {
+    width: 600px;
+    margin: auto;
+    box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.header {
+    margin-top: 5rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+}
+
+.image {
+    width: 600px;
+    height: 300px;
+}
+
+.heading {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 1rem;
+    padding-bottom: 15px;
+}
+
+.score {
+    font-size: 3rem;
+    margin: 0rem;
+}
+
+#scoreSelect {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 2em;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.main {
+    /* border: 1px solid black; */
+    padding: 1rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    font-size: 1.5rem;
+}
+.buttonSection{
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    
+    /* flex-wrap: wrap; */
+}
+.buttons{
+    width: 300px;
+    padding: 1rem;
+    margin: 0;
+    border: none;
+    font-size: 1.25rem;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0.2rem;
+    box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12);
+}
+#playerOne{
+    background-color: #24a0ed;
+}
+#playerOne:hover{
+    background-color: #178bd3;
+}
+#playerOne:disabled{
+    opacity: 50%;
+}
+#playerTwo{
+    background-color: #20e78a;
+}
+#playerTwo:hover{
+    background-color: #16c373;
+}
+#playerTwo:disabled{
+    opacity: 50%;
+}
+#reset{
+    background-color:  #fd0e35;
+}
+#reset:hover{
+    background-color: #da0d2f;
+}
